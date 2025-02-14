@@ -16,7 +16,7 @@ import netlify from "../images/techLogo/netlify.png"
 
 export default function Portfolio() {
     const handleResumeDownload = () => {
-        window.open("https://drive.google.com/file/d/1ohOtm0ZWARAntCW1To3Yppq3MIyCA_kM/view?usp=sharing")
+        window.open("https://drive.google.com/file/d/1KpG9w29NN_C6AP0F3ZoH80-vXnHBQHq0/view?usp=sharing")
         const link = document.createElement('a');
         link.href = Pallavi_Patidar_Resume;
         link.download = 'Pallavi_Patidar_Resume.pdf';
