@@ -155,9 +155,9 @@ html {
     animation: growShrink 3s infinite;
 }
 
-.skill-item:hover {
-    /* animation: growShrink 1s infinite; */
-}
+/* .skill-item:hover {
+    animation: growShrink 1s infinite;
+} */
 
 @keyframes growShrink {
     0% {
