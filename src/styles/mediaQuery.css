@@ -1,0 +1,157 @@
+/* Responsive CSS for Portfolio */
+
+@media (max-width: 1200px) {
+    .skills-list {
+        margin: auto 50px;
+    }
+
+    .project-banner {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-links {
+        gap: 20px;
+    }
+
+    .skills-list {
+        margin: auto 30px;
+    }
+
+    .about-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-flex img {
+        width: 150px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .logopic {
+        width: 250px;
+        height: 230px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 2rem;
+        background-color: #333;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .skills-list {
+        gap: 20px;
+    }
+
+    .skill-item img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .project-links a {
+        padding: 6px 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .logopic {
+        width: 200px;
+        height: 180px;
+    }
+
+    .skills-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-item {
+        width: 80px;
+        height: 80px;
+    }
+
+    .project-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-details p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .logopic {
+        width: 150px;
+        height: 130px;
+    }
+
+    .skill-item {
+        width: 60px;
+        height: 60px;
+    }
+
+    .project-banner h2 {
+        font-size: 1.5rem;
+    }
+
+    .project-links a {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    .contact-details p {
+        font-size: 0.8rem;
+    }
+
+    .footer {
+        font-size: 0.7rem;
+    }
+}

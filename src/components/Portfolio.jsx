@@ -1,8 +1,9 @@
 import React from "react";
+import { useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 import "../styles/Portfolio.css";
-// import photo from "../images/profileImg.jpg"
+import "../styles/mediaQuery.css"
 import logo from "../images/girlLogo.gif"
 import profilePic from "../images/profileImg.jpg"
 import Pallavi_Patidar_Resume from "../resume/PallaviPatidar-FrontendDeveloper.pdf"
@@ -17,6 +18,8 @@ import netlify from "../images/techLogo/netlify.png"
 import projectBanner from "../images/projectBanner.png"
 
 export default function Portfolio() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     const handleResumeDownload = () => {
         window.open("https://drive.google.com/file/d/1KpG9w29NN_C6AP0F3ZoH80-vXnHBQHq0/view?usp=sharing")
         const link = document.createElement('a');
@@ -24,6 +27,10 @@ export default function Portfolio() {
         link.download = 'Pallavi_Patidar_Resume.pdf';
         link.click();
     };
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
         <div className="portfolio-container">
             <div className="background-overlay"></div>
@@ -32,7 +39,12 @@ export default function Portfolio() {
                 {/* Navigation Bar */}
                 <nav className="navbar sticky-nav">
                     <h1 className="logo">Pallavi</h1>
-                    <ul className="nav-links">
+                    <div className={`hamburger ${menuOpen ? "open" : ""}`} onClick={toggleMenu}>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <ul className={`nav-links ${menuOpen ? "active" : ""}`} onClick={() => setMenuOpen(false)}>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#skills">Skills</a></li>
