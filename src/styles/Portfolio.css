@@ -152,11 +152,12 @@ html {
 /* CSS for grow-in and shrink-in animation */
 .skill-item {
     transition: transform 0.5s ease;
-    animation: growShrink 3s infinite;
+    animation: growShrink 3s linear infinite;
+    /* animation: animate 5s linear infinite; */
 }
 
 /* .skill-item:hover {
-    animation: growShrink 1s infinite;
+    animation: animate 1s linear infinite;
 } */
 
 @keyframes growShrink {
@@ -170,6 +171,20 @@ html {
 
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes animate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
     }
 }
 
