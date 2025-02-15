@@ -103,8 +103,25 @@
         display: flex;
     }
 
+    .logopic {
+        width: 300px;
+        height: 272px;
+        overflow: hidden;
+        margin: auto;
+        /* border: 1px solid; */
+    }
+
+    .logopic img {
+        width: 300px;
+    }
+
     .skills-list {
-        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* border: 1px solid; */
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
     }
 
     .skill-item img {
@@ -122,7 +139,7 @@
     }
 
     .project-links a:hover {
-        background-color: #0056b3;
+        background-color: #f7a437;
     }
 }
 
@@ -136,14 +153,14 @@
     }
 
     .logopic {
-        width: 200px;
-        height: 175px;
+        width: 250px;
+        height: 225px;
         overflow: hidden;
         margin: auto;
     }
 
     .logopic img {
-        width: 200px;
+        width: 250px;
     }
 
     .skills-list {
@@ -156,9 +173,21 @@
         height: 80px;
     }
 
-    .project-links {
+    /* .project-links {
         flex-direction: column;
         gap: 10px;
+    } */
+    .project-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        opacity: 1;
+        position: relative;
+        bottom: -10px;
+    }
+
+    .project-links a:hover {
+        background-color: #f7a437;
     }
 
     .contact-details p {
@@ -180,15 +209,14 @@
     }
 
     .logopic {
-        /* border: 1px solid; */
-        width: 150px;
-        height: 133px;
+        width: 230px;
+        height: 208px;
         overflow: hidden;
         margin: auto;
     }
 
     .logopic img {
-        width: 150px;
+        width: 230px;
     }
 
     .skill-item {
@@ -200,9 +228,21 @@
         font-size: 1.5rem;
     }
 
-    .project-links a {
+    /* .project-links a {
         font-size: 0.8rem;
         padding: 5px 10px;
+    } */
+    .project-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        opacity: 1;
+        position: relative;
+        bottom: -10px;
+    }
+
+    .project-links a:hover {
+        background-color: #f7a437;
     }
 
     .contact-details p {

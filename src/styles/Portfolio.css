@@ -418,6 +418,7 @@ body {
 .project-tech img {
     width: 30px;
     transition: transform 0.3s ease;
+    
 }
 
 .project-tech img:hover {
