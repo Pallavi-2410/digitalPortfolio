@@ -154,7 +154,12 @@ export default function Portfolio() {
                     <h2 className="section-title">Connect with Me</h2>
                     <div className="contact-details">
                         <p>Phone: +91 8602241866</p>
-                        <p>Email: patel.pallavi1819@gmail.com</p>
+                        {/* <p>Email: patel.pallavi1819@gmail.com</p> */}
+
+                        <a href="mailto:patel.pallavi1819@gmail.com?subject=Hello%20Pallavi" target="_blank" rel="noopener noreferrer" className="email-link">
+                            <p>Email: patel.pallavi1819@gmail.com</p>
+                        </a>
+
                         <p>Location: Pune, India</p>
                     </div>
                     

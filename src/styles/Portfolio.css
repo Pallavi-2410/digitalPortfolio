@@ -443,9 +443,14 @@ body {
 .contact-details p:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transform: scale(1.01);
+    background-color: #FEE5D9;
 }
 
-
+/* Email link opens Gmail with pre-filled email address */
+.contact-details .email-link {
+    text-decoration: none;
+    color: inherit;
+}
 
 .contact-links {
     display: flex;
