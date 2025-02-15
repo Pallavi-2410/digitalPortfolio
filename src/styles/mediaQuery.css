@@ -37,14 +37,15 @@
     }
 
     .logopic {
-        width: 250px;
-        height: 218px;
+        width: 300px;
+        height: 272px;
         overflow: hidden;
         margin: auto;
+        /* border: 1px solid; */
     }
 
     .logopic img {
-        width: 250px;
+        width: 300px;
     }
 }
 
@@ -111,8 +112,17 @@
         height: 50px;
     }
 
-    .project-links a {
-        padding: 6px 15px;
+    .project-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        opacity: 1;
+        position: relative;
+        bottom: -10px;
+    }
+
+    .project-links a:hover {
+        background-color: #0056b3;
     }
 }
 

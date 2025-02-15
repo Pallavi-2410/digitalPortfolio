@@ -164,13 +164,13 @@ export default function Portfolio() {
                     </div>
                     
                     <div className="contact-links">
-                        <motion.a href="https://github.com/yourgithub" target="_blank" rel="noreferrer" whileHover={{ scale: 1.3 }}>
+                        <motion.a href="https://github.com/Pallavi-2410" target="_blank" rel="noreferrer" whileHover={{ scale: 1.3 }}>
                             <FaGithub className="icon" />
                         </motion.a>
-                        <motion.a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noreferrer" whileHover={{ scale: 1.3 }}>
+                        <motion.a href="https://www.linkedin.com/in/pallavi-patidar-8466a7273/" target="_blank" rel="noreferrer" whileHover={{ scale: 1.3 }}>
                             <FaLinkedin className="icon" />
                         </motion.a>
-                        <motion.a href="mailto:your.email@example.com" whileHover={{ scale: 1.3 }}>
+                        <motion.a href="mailto:patel.pallavi1819@gmail.com" whileHover={{ scale: 1.3 }}>
                             <FaEnvelope className="icon" />
                         </motion.a>
                     </div>

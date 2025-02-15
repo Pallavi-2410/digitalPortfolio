@@ -153,17 +153,14 @@ body {
 
 .logopic {
     /* border: 1px solid; */
-    width: 300px;
-    height: 273px;
+    width: 350px;
+    height: 317px;
     overflow: hidden;
     margin: auto;
 }
 
 .logopic img {
-    /* margin-top: 2rem; */
-    width: 300px;
-    /* height: 250px; */
-
+    width: 350px;
 }
 
 
@@ -375,6 +372,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    /* justify-content: center; */
+    align-items: baseline;
     gap: 20px;
     z-index: 2;
     opacity: 0;
@@ -393,7 +392,6 @@ body {
     text-decoration: none;
     font-weight: bold;
     display: flex;
-    align-items: center;
     gap: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
