@@ -15,7 +15,7 @@ body {
 
 .portfolio-container {
     position: relative;
-    min-width: 100vw;
+    /* min-width: 10vw; */
     min-height: 100vh;
     background: linear-gradient(135deg, #f6d365, #fda085);
     animation: gradientAnimation 10s ease infinite;
@@ -52,7 +52,7 @@ body {
     z-index: +100;
     position: fixed;
     top: 0;
-    /* width: 100%; */
+    /* width: 93.7vw; */
 }
 
 .logo {
@@ -477,6 +477,7 @@ body {
     background: rgba(255, 255, 255, 0.7);
     border-top: 2px solid #fff;
     border-radius: 20px 20px 0 0;
+    width: 96.8vw;
 }
 
 .about {
