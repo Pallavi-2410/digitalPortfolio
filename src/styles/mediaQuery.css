@@ -47,6 +47,19 @@
     .logopic img {
         width: 300px;
     }
+        /* .footer {
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-top: 2px solid #fff;
+            border-radius: 20px 20px 0 0;
+            width: 96.8vw;
+        } */
+    footer.footer {
+        width: 93.5%;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -141,6 +154,15 @@
     .project-links a:hover {
         background-color: #f7a437;
     }
+        /* .footer {
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            background: rgba(255, 255, 255, 0.7);
+            border-top: 2px solid #fff;
+            border-radius: 20px 20px 0 0;
+            width: 96.8vw;
+        } */
 }
 
 @media (max-width: 576px) {
@@ -193,9 +215,19 @@
     .contact-details p {
         font-size: 0.9rem;
     }
+
+    /* .footer {
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+        background: rgba(255, 255, 255, 0.7);
+        border-top: 2px solid #fff;
+        border-radius: 20px 20px 0 0;
+        width: 96.8vw;
+    } */
 }
 
-@media (max-width: 400px) {
+@media (max-width: 400px) and (min-width: 100px) {
     .logo {
         font-size: 1.5rem;
     }
@@ -249,7 +281,14 @@
         font-size: 0.8rem;
     }
 
-    .footer {
-        font-size: 0.7rem;
-    }
+/* .footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.7);
+    border-top: 2px solid #fff;
+    border-radius: 20px 20px 0 0;
+    width: 96.8vw;
+} */
+
 }
