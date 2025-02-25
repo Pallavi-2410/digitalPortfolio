@@ -21,7 +21,7 @@ export default function Portfolio() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleResumeDownload = () => {
-        window.open("https://drive.google.com/file/d/1KpG9w29NN_C6AP0F3ZoH80-vXnHBQHq0/view?usp=sharing")
+        window.open("https://drive.google.com/file/d/1D-I534ux8q0mnrnPWTUJ9jymvEM97Wyl/view?usp=sharing")
         const link = document.createElement('a');
         link.href = Pallavi_Patidar_Resume;
         link.download = 'Pallavi_Patidar_Resume.pdf';
