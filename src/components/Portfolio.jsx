@@ -17,6 +17,7 @@ import github from "../images/techLogo/github.png"
 import netlify from "../images/techLogo/netlify.png"
 import projectBanner from "../images/projectBanner.png"
 
+
 export default function Portfolio() {
     const [menuOpen, setMenuOpen] = useState(false);
 
