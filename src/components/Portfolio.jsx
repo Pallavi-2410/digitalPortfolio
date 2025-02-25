@@ -50,6 +50,7 @@ export default function Portfolio() {
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
+                        <li><a href="#" onClick={handleResumeDownload}>Download Resume</a></li>
                     </ul>
                 </nav>
 
