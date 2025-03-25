@@ -15,14 +15,16 @@ import chakraUi from "../images/techLogo/chakraUi.png"
 import git from "../images/techLogo/git.png"
 import github from "../images/techLogo/github.png"
 import netlify from "../images/techLogo/netlify.png"
+import firebase from "../images/techLogo/firebase.png"
+import redux from "../images/techLogo/redux.png"
 import projectBanner from "../images/projectBanner.png"
-
+import projectBanner2 from "../images/projectBanner2.png"
 
 export default function Portfolio() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleResumeDownload = () => {
-        window.open("https://drive.google.com/file/d/1SKg1l_ifAVk22k4edipNbIXcCVbMDY3N/view?usp=sharing")
+        window.open("https://drive.google.com/file/d/12qXAJ3AdXunwEMWP7nj3WFkB-CP0rF0B/view?usp=sharing")
         const link = document.createElement('a');
         link.href = Pallavi_Patidar_Resume;
         link.download = 'Pallavi_Patidar_Resume.pdf';
@@ -125,7 +127,7 @@ export default function Portfolio() {
                     </div>
                 </section>
 
-                {/* Projects Section */}
+                {/* Projects Section 1 */}
                 <section id="projects" className="project-banner">
                     <h2>Projects</h2>
                     <div className="project-detail">
@@ -146,6 +148,37 @@ export default function Portfolio() {
                     <div className="project-links">
                                 <a href="https://pallavi-2410.github.io/Chai-iayah/" target="_blank" rel="noopener noreferrer" >Live <FaExternalLinkAlt className="icon" /></a>
                                 <a href="https://github.com/Pallavi-2410/Chai-iayah" target="_blank" rel="noopener noreferrer" >Github <FaGithub className="icon" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Projects Section 2 */}
+                <section id="projects2" className="project-banner">
+                    
+                    <div className="project-detail2">
+                        <h3>NomadNest</h3>
+                        <p>NomadNest is a platform designed to redefine travel experiences, offering travelers a seamless way to find and book unique accommodations worldwide. Inspired by the spirit of adventure and the comfort of home, NomadNest bridges the gap between wanderlust and luxury, providing handpicked stays tailored to every traveler’s needs.
+                            NomadNest is your gateway to extraordinary stays across the world. Whether you're looking for cozy cabins, beachfront villas, or city apartments, we bring you a carefully curated selection of accommodations that promise comfort and authenticity. With easy navigation, secure booking options, and a variety of categories, finding your next perfect stay has never been easier!</p>
+
+                        <div className="project-tech-cont">
+                            <div className="project-tech"><img src={html} alt="HTML" /></div>
+                            <div className="project-tech" ><img src={css} alt="css" /></div>
+                            <div className="project-tech" ><img src={js} alt="js" /></div>
+                            <div className="project-tech" ><img src={react} alt="js" /></div>
+                            <div className="project-tech" ><img src={redux} alt="js" /></div>
+                            <div className="project-tech" ><img src={chakraUi} alt="js" /></div>
+                            <div className="project-tech" ><img src={firebase} alt="js" /></div>
+                        </div>
+                        <br />
+                    </div>
+                    <div className="project-list">
+                        <div className="project-item">
+                            <img src={projectBanner2} alt="projectBanner" />
+
+                            <div className="project-links">
+                                <a href="https://nomad-nest-firebase.web.app/" target="_blank" rel="noopener noreferrer" >Live <FaExternalLinkAlt className="icon" /></a>
+                                <a href="https://github.com/Pallavi-2410/NomadNest" target="_blank" rel="noopener noreferrer" >Github <FaGithub className="icon" /></a>
                             </div>
                         </div>
                     </div>
