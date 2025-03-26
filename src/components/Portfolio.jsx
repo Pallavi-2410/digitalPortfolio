@@ -97,8 +97,7 @@ export default function Portfolio() {
                             alt="Profile"
                         />
                         <p>
-                            I'm a passionate Frontend Developer with experience in HTML, CSS, JavaScript, React, and more.
-                            Currently, I'm pursuing a full-time Frontend development course at Masai School.
+                            I'm a passionate Frontend Developer with expertise in HTML, CSS, JavaScript, React, and more. With two years of experience, I have also completed a full-time Frontend Development course at Masai School to enhance my skills and deepen my expertise.
                         </p>
                     </div>
                     
