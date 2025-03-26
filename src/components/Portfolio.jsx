@@ -6,7 +6,7 @@ import "../styles/Portfolio.css";
 import "../styles/mediaQuery.css"
 import logo from "../images/girlLogo.gif"
 import profilePic from "../images/profileImg.jpg"
-import Pallavi_Patidar_Resume from "../resume/PallaviPatidar-FrontendDeveloper.pdf"
+import Pallavi_Patidar_Resume from "../resume/PallaviPatidar-FrontendDeveloper"
 import html from "../images/techLogo/html.png"
 import css from "../images/techLogo/css.png"
 import js from "../images/techLogo/js.png"
@@ -24,7 +24,7 @@ export default function Portfolio() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleResumeDownload = () => {
-        window.open("https://drive.google.com/file/d/12qXAJ3AdXunwEMWP7nj3WFkB-CP0rF0B/view?usp=sharing")
+        window.open("https://drive.google.com/file/d/10UsmjLFtyJzyMzqnYfLKVMFA9WopaYkv/view?usp=sharing")
         const link = document.createElement('a');
         link.href = Pallavi_Patidar_Resume;
         link.download = 'Pallavi_Patidar_Resume.pdf';
