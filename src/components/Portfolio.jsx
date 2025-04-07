@@ -122,7 +122,11 @@ export default function Portfolio() {
 
                         <div className="skill-item" data-skill="Git" ><img src={git} alt="git" /></div>
 
-                        <div className="skill-item" data-skill="Netlify"><img src={netlify} alt="netlify"  /></div>                        
+                        <div className="skill-item" data-skill="Netlify"><img src={netlify} alt="netlify"/></div>         
+
+                        <div className="skill-item" data-skill="Redux"><img src={redux} alt="redux" /></div>  
+
+                        <div className="skill-item" data-skill="Firebase"><img src={firebase} alt="firebase" /></div>                 
                     </div>
                 </section>
 
