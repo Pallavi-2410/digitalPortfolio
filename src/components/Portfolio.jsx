@@ -6,7 +6,7 @@ import "../styles/Portfolio.css";
 import "../styles/mediaQuery.css"
 import logo from "../images/girlLogo.gif"
 import profilePic from "../images/profileImg.jpg"
-import Pallavi_Patidar_Resume from "../resume/PallaviPatidar-FrontendDeveloper(React)-updated.pdf"
+import Pallavi_Patidar_Resume from "../resume/Pallavi_Patidar_Resume.pdf"
 import html from "../images/techLogo/html.png"
 import css from "../images/techLogo/css.png"
 import js from "../images/techLogo/js.png"
